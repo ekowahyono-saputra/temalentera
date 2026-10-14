@@ -1,0 +1,16 @@
+LENTERA FREE 1.0.0 — HASIL PEMERIKSAAN
+- Opsi lisensi dan updater dihapus; konfigurasi JSON serta metadata valid.
+- Seluruh kode runtime paket diperiksa: tidak ada service/panggilan aktivasi,
+  rute lisensi, halaman belum aktif, atau tautan tools updater.
+- Wrapper aktivasi pada template dihapus dan konten halaman lainnya dipertahankan.
+- Gaya admin/login dan gateway menggunakan sakelar fitur tanpa syarat lisensi.
+- Theme.php sama dengan controller standar OpenSID publik 2607.0.1.
+- Perbandingan terhadap Lentera 1.26: file yang dimodifikasi telah dibatasi; file lainnya yang
+  dibawa dalam paket tetap sama, termasuk aset animasi dan widget.
+- Tidak ditemukan API key live dalam paket; API key gateway kosong dan gateway
+  otomatis/manual nonaktif secara default.
+- lentera.js, lentera-services.js dan lentera-insight.js lolos node --check.
+- ZIP diperiksa integritas, daftar file, dan tidak memuat berkas runtime desa.
+- PHP CLI tidak tersedia: lint/eksekusi PHP dan kompilasi Blade belum diuji.
+- Belum diuji pada hosting: login, formulir, API cuaca, gempa dan gateway.
+- Paket versi berlisensi tetap tersedia dan tidak ditimpa.

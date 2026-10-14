@@ -1,0 +1,16 @@
+# Data runtime dan rahasia: jangan disertakan dalam repositori publik.
+.env
+.env.*
+!.env.example
+/vendor/
+/node_modules/
+/desa/config/
+/desa/pengaturan/
+/desa/backup/
+/desa/upload/
+/storage/logs/
+/donjo-app/cache/
+*.log
+*.sql
+*.gdb
+.DS_Store
